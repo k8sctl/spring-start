@@ -1,0 +1,89 @@
+# ==========================
+# Gradle
+# ==========================
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==========================
+# IDE - STS / Eclipse
+# ==========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# ==========================
+# IDE - IntelliJ IDEA
+# ==========================
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# ==========================
+# IDE - NetBeans
+# ==========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================
+# IDE - VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# OS 파일
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# 환경 설정 / 시크릿 (중요!)
+# ==========================
+.env
+.env.*
+*.properties.local
+application-local.yml
+application-local.yaml
+application-secret.yml
+application-secret.yaml
+
+# ==========================
+# 로그
+# ==========================
+*.log
+logs/
+log/
+
+# ==========================
+# 패키지 / 의존성
+# ==========================
+target/
+
+# ==========================
+# 테스트 커버리지
+# ==========================
+.jacoco/
+jacoco.exec
+
+# ==========================
+# Docker
+# ==========================
+docker-compose.override.yml
